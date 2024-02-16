@@ -1,0 +1,317 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.manu-bar{
+    padding: 10px;
+    background-color: #D5D2D2;
+    display: flex;
+    justify-content: space-around;
+}
+.part1{
+    display: flex;
+}
+.bar-text{
+    font-size: 22px;
+    font-weight: bold;
+    color: aqua;
+    padding: 15px;
+    margin-left: 10px;
+}
+.list1{
+    list-style: none;
+    display: flex;
+
+}
+
+.list-info{
+    padding: 15px;
+    font-weight: 600px;
+    font-size: 18px;
+}
+.banner-comtent{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    
+}
+.digital{
+    color: red;
+}
+.h1-text{
+    font-size: 85px;
+    color: aliceblue;
+}
+.banner-p{
+    color:white;
+    font-size: 22px;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+
+}
+.btn-discover{
+    margin: 10px;
+    background-color: red;
+    border: none;
+    padding: 15px 35px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn-hire{
+    background-color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+/* ******banner done*********** */
+.Services{
+    width: 100%;
+    height: 100vh;
+    background-color: #000001ec  ;
+    background-blend-mode: overlay;
+    background-image: url(./Asset/image/footer-bg.png);
+    padding: 20px;
+}
+
+.btn-srevice{
+    color: gray;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.services-left{
+    color: white;
+    width: 50%;
+
+}
+
+.p-srevice-left{
+    font-size: 20px;
+    text-wrap: wrap;
+
+}
+.service-h1{
+    color: red;
+}
+.author-btn{
+    color:#F52C2C;
+    border-radius: 25px;
+    margin: px;
+    margin-top: 25px;
+    font-style: normal;
+}
+.author-bio{
+    padding: 10px;
+    display: flex;
+ 
+}
+.author-img{
+    width: 80px;
+    height: 80px;
+    border-radius:50px;
+}
+.author{
+ display: flex;
+ margin-left: -10px;
+ margin-top: 5px;   
+}
+.author-details{
+    padding: 10px;
+    margin-top: 10px;
+}
+.red-line{
+    margin-left: 50px;
+    border-right: 1px solid #F52C2C;
+}
+ol{
+    margin: 20px;
+    font-size: 18px;
+}
+.sevice-h1{
+    font-size: bold;
+    font-weight: 700px;
+}
+
+.Services{
+    display: flex;
+}
+.service-logo{
+    width: 100px;
+    margin: 80px;
+}
+.box-skills{
+    display: flex;
+    
+}
+.box-1{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box-text{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 60px !important;
+}
+.call-icon{
+    width: 100px;
+}
+.call-part{
+    display: flex;
+    border-right: 2px solid greenyellow;
+    padding: 20px;
+}
+.apoinment-section{
+    display: flex;
+    background-color: #F52C2C;
+    width: 75%;
+    margin: auto;
+    border-radius: 20px;
+    margin-top:-20px;
+    padding: 30px;
+    color: aliceblue;
+}
+.app-get{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.app-num{
+    margin-left: 13px;
+}
+.call-description{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.app-btn{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 180px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+.blog-section{
+    width: 100%;
+    height: 100vh;
+}
+.blog-text{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.blog-h1{
+    font-size: 30px;
+}
+.blog-p{
+    font-size: 23px;
+
+}
+.blog-img{
+    width: 350px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.blogs{
+    margin: 35px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.blog1{
+    width: 350px;
+    height: 430px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 4px 4px 8px gray;
+}
+.blog-hedline{
+    font-size: 25px;
+    padding: 10px;
+}
+.blog-des{
+    padding: 10px;
+}
+
+/* <===============fotter section=============> */
+footer{
+    width: 100%;
+    height: 60vh;
+    background-image: url(./Asset/image/footer-bg.png);
+    background-color: #000001ec  ;
+    background-blend-mode: overlay;
+}
+h4{
+    color: white;
+}
+.img-fotter{
+    padding: 10px;
+}
+.fotter-section{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.fotter-logo{
+    width: 200px;
+}
+.fotter-h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.fotter-1{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.img-fotter{
+    width: 25px;
+    padding: 10px;
+}
+.img-fotter2{
+    margin-right: 10px;
+    /* border: 3px solid red; */
+}
+small{
+    margin-left: 600px !important;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    /* margin-top: 30px !important; */
+
+}
+hr{
+    width: 85%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px ;
+}
+.copy-text{
+    margin-top: 15px;
+}
